@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40270410-2bc7-4950-b10c-e42eddb889a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/db_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/repositories/ActuatorRepository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/firebase_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/firebase_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,7 @@
       <workItem from="1713354702788" duration="3928000" />
       <workItem from="1713375143443" duration="607000" />
       <workItem from="1713383462011" duration="742000" />
-      <workItem from="1713428857167" duration="3543000" />
+      <workItem from="1713428857167" duration="5486000" />
     </task>
     <servers />
   </component>
