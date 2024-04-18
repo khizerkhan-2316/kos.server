@@ -1,7 +1,13 @@
 import os
 
-firebase_credentials_path = os.getenv('FIREBASE_CREDENTIALS_PATH')
+import firebase_admin
+from firebase_admin import credentials, firestore, initialize_app
 
-FIREBASE_CONFIG = {
-    'credentials_path': firebase_credentials_path
-}
+cred_path = "key.json"
+
+cred = credentials.Certificate(cred_path)
+
+firebase_admin.initialize_app(cred)
+
+db = firestore.client()
+

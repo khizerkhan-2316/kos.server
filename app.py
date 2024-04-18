@@ -5,6 +5,7 @@ from controllers.ActuatorController import ActuatorController
 
 app = Flask(__name__)
 
+
 actuator_controller = ActuatorController(app)
 
 if __name__ == '__main__':
