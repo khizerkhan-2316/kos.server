@@ -1,10 +1,12 @@
-from flask import jsonify
+from data_access.repositories.ActuatorRepository import ActuatorRepository
+from dataclasses import asdict
 
 
 class ActuatorService:
     def __init__(self):
-        pass
+        self.actuator_repo = ActuatorRepository()
 
-    def get_actuators_status(self):
-        print("")
-        return 0
+    async def get_actuators(self):
+        actuators = await self.actuator_repo.get_actuators()
+
+        return actuators
