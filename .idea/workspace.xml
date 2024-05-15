@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40270410-2bc7-4950-b10c-e42eddb889a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/LogLevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/MeasurementType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/LoggingController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/MeasurementController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_access/repositories/LoggingRepository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_access/repositories/MeasurementRepository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Measurement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/LoggingService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/MeasurementService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ActuatorController.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ActuatorController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/db_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/db_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/models/Actuator.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/Actuator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/repositories/ActuatorRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/repositories/ActuatorRepository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ActuatorService.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/ActuatorService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/SerialService.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/SerialService.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +66,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
-    &quot;Flask server.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Server.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -65,11 +80,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\khize\Desktop\Skole\Softwareteknologi\2.semester\Semesterprojekt 2\Server\config" />
       <recent name="C:\Users\khize\Desktop\Skole\Softwareteknologi\2.semester\Semesterprojekt 2\Server" />
+      <recent name="C:\Users\khize\Desktop\Skole\Softwareteknologi\2.semester\Semesterprojekt 2\Server\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Server">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="Server" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -142,7 +157,30 @@
       <workItem from="1713867095063" duration="3290000" />
       <workItem from="1713955689677" duration="3473000" />
       <workItem from="1713960392074" duration="3154000" />
-      <workItem from="1713964323782" duration="1343000" />
+      <workItem from="1713964323782" duration="9987000" />
+      <workItem from="1713988178154" duration="44000" />
+      <workItem from="1714048730928" duration="7869000" />
+      <workItem from="1714065302606" duration="8845000" />
+      <workItem from="1714121127575" duration="923000" />
+      <workItem from="1714561901834" duration="171000" />
+      <workItem from="1714648984398" duration="1848000" />
+      <workItem from="1714909566869" duration="2919000" />
+      <workItem from="1715003731412" duration="4000" />
+      <workItem from="1715006739667" duration="4707000" />
+      <workItem from="1715024648174" duration="2897000" />
+      <workItem from="1715027573538" duration="2618000" />
+      <workItem from="1715439365581" duration="4938000" />
+      <workItem from="1715512550209" duration="1250000" />
+      <workItem from="1715593697714" duration="5539000" />
+      <workItem from="1715602505924" duration="4542000" />
+      <workItem from="1715614741248" duration="4519000" />
+      <workItem from="1715626002353" duration="11077000" />
+      <workItem from="1715679899915" duration="1378000" />
+      <workItem from="1715681541700" duration="1862000" />
+      <workItem from="1715683432798" duration="16847000" />
+      <workItem from="1715707920398" duration="18518000" />
+      <workItem from="1715769565790" duration="1032000" />
+      <workItem from="1715783454842" duration="1030000" />
     </task>
     <servers />
   </component>
@@ -153,7 +191,7 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Server$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1709554848330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Server$Server.coverage" NAME="Server Coverage Results" MODIFIED="1713962878087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1715783826136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$Server.coverage" NAME="Server Coverage Results" MODIFIED="1715639749953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
